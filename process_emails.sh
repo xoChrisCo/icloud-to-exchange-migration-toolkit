@@ -61,7 +61,7 @@ fi
 echo "Step 4: Processing sent emails..."
 
 echo "Step 0: Creating original emails from sent mbox..."
-if ! python 0-mbox_to_eml.py ~/temp/mbox/sent.mbox/mbox ./0-originals/sent/ 2>&1 | process_output; then
+if ! python 0-mbox_to_eml.py ~/temp/mbox/Sent\ Messages.mbox/mbox ./0-originals/sent/ 2>&1 | process_output; then
     log_error 0 "sent" "Failed to create original emails from sent mbox"
 fi
 
