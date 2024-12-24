@@ -1,12 +1,16 @@
 # Workflow folders
 0-originals/*
 !0-originals/.gitkeep
+!0-originals/about.txt
 1-fixed/*
 !1-fixed/.gitkeep
+!1-fixed/about.txt
 2-deduplicated/*
 !2-deduplicated/.gitkeep
+!2-deduplicated/about.txt
 3-mbox/*
 !3-mbox/.gitkeep
+!3-mbox/about.txt
 .DS_Store
 
 # Byte-compiled / optimized / DLL files
