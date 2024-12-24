@@ -1,3 +1,14 @@
+# Workflow folders
+0-originals/*
+!0-originals/.gitkeep
+1-fixed/*
+!1-fixed/.gitkeep
+2-deduplicated/*
+!2-deduplicated/.gitkeep
+3-mbox/*
+!3-mbox/.gitkeep
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -169,5 +180,3 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-
-.DS_Store
